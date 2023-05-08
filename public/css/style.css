@@ -1823,3 +1823,69 @@ section {
     padding-top: 4px;
   }
 }
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 767.98px) {
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+.bi-facebook:before {
+  content: "\f39e";
+}
+
+.bi-instagram:before {
+  content: "\f16d";
+}
+
+.bi-twitter:before {
+  content: "\f099";
+}
+

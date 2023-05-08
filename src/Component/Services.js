@@ -10,13 +10,13 @@ export default function Services() {
                 <div className="container" data-aos="fade-up">
                     <div className="section-title">
                         <h2 style={style1}>Services</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p className='text-start'>Our company offers a comprehensive suite of digital solutions, including interactive displays, digital signage, and software solutions, all designed to enhance communication and engagement. From hardware installation to content creation and management, we provide end-to-end services tailored to meet your unique needs and budget.</p>
                     </div>
                     <div className="row text-start">
-                        <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay={200}>
+                        <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-1 mt-md-0" data-aos="zoom-in" data-aos-delay={200}>
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-file" /></div>
-                                <h4><a href>Educational Solutions</a></h4>
+                                <h4><a href>Ed-Tech Solutions</a></h4>
                                 <p>Innovative solutions designed specifically for educational institutions, including interactive digital panels, digital display solutions for classrooms, and software solutions for content management and collaboration.</p>
                             </div>
                         </div>
