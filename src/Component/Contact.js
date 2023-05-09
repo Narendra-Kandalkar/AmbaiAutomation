@@ -35,7 +35,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                            <form action="mailto:narendrakandalkar@gmail.com" method="post" role="form" className="php-email-form">
                                 <div className="row">
                                     <div className="form-group col-md-6">
                                         <label htmlFor="name">Your Name</label>
@@ -59,7 +59,7 @@ export default function Contact() {
                                     <div className="error-message" />
                                     <div className="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
-                                <div className="text-center"><button type="submit">Send Message</button></div>
+                                <div className="text-center" ><button type="submit">Send Message</button></div>
                             </form>
                         </div>
                     </div>
