@@ -12,11 +12,13 @@ import Team from './Component/Team';
 import FrequentlyAsked from './Component/FrequentlyAsked';
 import Contact from './Component/Contact';
 import Footer from './Component/Footer';
+import NavigationBar from './Component/menubar';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      {/* <NavigationBar/> */}
       <HeroSection></HeroSection>
       <ClientSection></ClientSection>
       <AboutUs></AboutUs>

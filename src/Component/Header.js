@@ -48,7 +48,7 @@ export default function Header() {
         <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
         <li><a className="getstarted scrollto" href="#about">Get Started</a></li>
       </ul>
-      <i className="bi bi-list mobile-nav-toggle" />
+      <i className="bi " />
     </nav>{/* .navbar */}
   </div>
 </header>{/* End Header */}
